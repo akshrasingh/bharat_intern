@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(8, 7, 8);
+    color:red;
+    padding:10px;
+}
+.row_posters 
+{
+
+
+
+display: flex;
+overflow-x:scroll;
+overflow-y: hidden;
+padding:10px;
+    
+
+}
+.row_posters img{
+   width:100%;
+   max-height: 120px;
+    object-fit: cover;
+    transition: transform 0.7s;
+}
+.row_posters img:hover{
+    transform:scale(1.1);
+}
+.row_posters::-webkit-scrollbar
+{
+    display:none;
+}
+.row_posters_large
+{
+    display: flex;
+overflow-x: auto;
+overflow-y: hidden;
+
+}
+.row_posters_large img{
+    width:100%;
+    max-height: 250px;
+     object-fit: cover;
+     transition: transform 0.7s;
+     
+  margin-right: 10px;
+ }
+ .row_posters_large img:hover{
+     transform:scale(1.1);
+ }
+
+.banner
+{
+    background-image: url('image/banner.jpg');
+    background-size: cover;
+    background-position: center center;
+    height:450px;
+    object-fit: contain;
+
+}
+.banner_content
+{
+    margin-left:30px ;
+    padding-top: 180px;
+     color:white;
+    height:90px;
+   font-size: larger;
+}
+.title_b
+{
+    font-size:x-large;
+
+}
+.description
+{
+
+}
+.button_1
+
+{
+    cursor: pointer;
+    color: azure;
+    background-color: rgb(42, 35, 35);
+    outline: none;
+    border:none;
+    font-size: large;
+    padding:5px;
+    margin:10px
+    
+}
+.nav_logo
+{
+    width:80px;
+    object-fit: contain;
+}
+.nav_avatar
+{
+    width:30px ;
+    margin-left: 1320px; 
+    
+}
